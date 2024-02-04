@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.background-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(229 243 247);
+}
+
+.background-desc {
+    position: relative;
+    z-index: 1;
+}
+
+.background-desc>h1 {
+    font-size: 60px;
+}
+
+img[alt="back"] {
+    width: 100%;
+}
+
+.training-btn-div {
+    text-align: center;
+}
+
+.discover-desc {
+    padding: 30px;
+    text-align: center;
+}
+
+
+.card-desc {
+    text-align: center;
+    padding: 40px;
+}
+
+.card-desc>h3 {
+    font-size: 38px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    width: 30%;
+    margin: auto;
+}
+
+.card-desc > p{
+    font-size: 17px;
+}
+
+img[alt="course"]{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.up-courses{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    padding: 25px;
+}
+
+
+.down-courses{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    column-gap: 20px;
+}
+
+.up-courses > div{
+    width: 17%;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 42px;
+}
+.down-courses > div{
+    width: 17%;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 42px;
+}
+
+.angle-icons{
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.reactions-statistics{
+    display: flex;
+    column-gap: 15px;
+}
+
+.course-w-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* courses media query */
+@media  screen and (max-width: 1200px) and (min-width:992px) {
+    img[alt="course"]{
+        width: 100%;
+    }
+    .up-courses > div{
+        width: 48%;
+    }
+    .down-courses > div{
+        width: 100%;
+    }
+}
+@media  screen and (max-width: 992px) and (min-width:786px) {
+    img[alt="course"]{
+        width: 100%;
+    }
+    .up-courses > div{
+        width: 48%;
+    }
+    .down-courses > div{
+        width: 100%;
+    }
+}
+@media  screen and (max-width: 786px) and (min-width:600px) {
+    img[alt="course"]{
+        width: 100%;
+    }
+    .up-courses > div{
+        width: 100%;
+    }
+    .down-courses > div{
+        width: 100%;
+    }
+}
+@media  screen and (max-width: 600px){
+    img[alt="course"]{
+        width: 100%;
+    }
+    .up-courses > div{
+        width: 100%;
+    }
+    .down-courses > div{
+        width: 100%;
+    }
+}
+
+.web-design-div{
+    background-color: rgb(246, 246, 246);
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.popular-courses{
+    margin-top: 150px;
+}
+
+.popular-desc {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.popular-desc h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.achivement {
+    padding: 40px;
+}
+
+.achivement-desc {
+    text-align: center;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.testimonial-desc {
+    text-align: center;
+}
+
+.discover-heading {
+    width: 70%;
+    margin: auto;
+    font-size: 35px;
+}
+
+button[name="go-to-trainigs-btn"] {
+    padding: 8px;
+    font-size: 18px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(197, 197, 197);
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 26px;
+    margin-bottom: 15px;
+}
+
+.discover-card {
+    padding: 30px;
+    box-shadow: 3px 3px 4px 3px gainsboro;
+    width: 76%;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.card-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    border-radius: 12px;
+}
+
+img[alt="cardimg"] {
+    width: 231px;
+}
+
+button[name="start-training-btn"]{
+    padding: 17px;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+    background-color: rgb(41, 41, 41);
+    font-size: 18px;
+    border-radius: 15px;
+    width: 195px;
+}
+
+/* discover media query */
+
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    .discover-heading {
+        width: 100%;
+    }
+
+    img[alt="cardimg"] {
+        width: 100%;
+    }
+    .card-desc>h3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    .discover-heading {
+        width: 100%;
+    }
+
+    img[alt="cardimg"] {
+        width: 100%;
+    }
+    .card-desc>h3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    .discover-heading {
+        width: 100%;
+
+    }
+
+    img[alt="cardimg"] {
+        width: 100%;
+    }
+    .card-desc>h3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .discover-heading {
+        width: 100%;
+    }
+
+    img[alt="cardimg"] {
+        width: 100%;
+    }
+
+    .card-desc>h3 {
+        width: 100%;
+    }
+}
